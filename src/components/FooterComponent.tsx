@@ -2,7 +2,7 @@ import CountryLookupAPI from "./CountryLookupAPI";
 
 export default function FooterComponent() {
   return (
-    <footer className="absolute bottom-0 w-full px-4 py-5 bg-gray-200">
+    <footer className="absolute bottom-0 w-full px-4 py-5 bg-gray-200 text-gray-800">
       <div className="border-b border-b-gray-400 pb-2">
         <CountryLookupAPI />
       </div>

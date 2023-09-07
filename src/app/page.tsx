@@ -3,7 +3,7 @@ import SearchComponent from "@/components/SearchComponent";
 
 export default function Home() {
   return (
-    <main className="bg-gray-100">
+    <main className="relative">
       <HomeHeader />
       <SearchComponent />
     </main>

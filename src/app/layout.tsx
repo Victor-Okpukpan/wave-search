@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} relative`}>{children}
+      <body className={`${roboto.className} relative bg-gray-100 min-h-screen`}>{children}
       <FooterComponent />
       </body>
     </html>

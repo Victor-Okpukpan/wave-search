@@ -26,7 +26,7 @@ export default function SearchComponent() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen space-y-5 py-40 border">
+    <main className="flex flex-col items-center justify-center min-h-screen space-y-5 py-40 border">
       <h1 className="font-bold text-5xl animate-pulse">WaveSearch</h1>
       <form className="flex items-center space-x-2 border w-[90%] md:max-w-xl lg:max-w-2xl p-3 rounded-3xl hover:bg-gray-200 hover:shadow-md active:shadow-md focus-within:bg-gray-200 focus-within:shadow-md">
         <AiOutlineSearch className="text-xl cursor-pointer" />
@@ -59,6 +59,6 @@ export default function SearchComponent() {
           )}
         </button>
       </div>
-    </div>
+    </main>
   );
 }
