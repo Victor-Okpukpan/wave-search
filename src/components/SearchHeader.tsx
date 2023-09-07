@@ -8,15 +8,15 @@ export default function SearchHeader() {
   return (
     <header className="p-4">
       <div className="flex items-center">
-        <Link href="/" className="font-bold text-5xl animate-pulse">
+        <Link href="/" className="font-bold text-2xl lg:text-3xl animate-pulse">
           WaveSearch
         </Link>
         <div className="flex-1">
           <SearchBoxComponent />
         </div>
         <div className="flex items-center">
-          <RiSettings3Line className="hover:bg-gray-200 text-4xl p-2 rounded-full" />
-          <TbGridDots className="hover:bg-gray-200 text-4xl p-2 rounded-full" />
+          <RiSettings3Line className="hidden sm:inline-flex hover:bg-gray-200 text-4xl p-2 rounded-full" />
+          <TbGridDots className="hidden sm:inline-flex hover:bg-gray-200 text-4xl p-2 rounded-full" />
         </div>
         <button className="bg-blue-500 text-white py-2 px-5 hover:brightness-105 hover:shadow-md rounded">Sign In</button>
       </div>
