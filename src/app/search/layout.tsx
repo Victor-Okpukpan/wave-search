@@ -13,7 +13,7 @@ export default function SearchLayout({
   children: React.ReactNode;
 }) {
   return (
-      <div className={`${roboto.className} relative bg-gray-100`}>
+      <div className={`${roboto.className} max-w-[1400px] mx-auto relative bg-gray-100`}>
         <SearchHeader />
         {children}
       </div>
