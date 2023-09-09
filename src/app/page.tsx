@@ -7,5 +7,5 @@ export default function Home() {
       <HomeHeader />
       <SearchComponent />
     </main>
-  )
+  );
 }

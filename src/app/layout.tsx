@@ -21,8 +21,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} max-w-[1400px] mx-auto relative bg-gray-100 min-h-screen`}>{children}
-      <FooterComponent />
+      <body
+        className={`${roboto.className} max-w-[1400px] mx-auto relative border-none min-h-screen`}
+      >
+        {children}
+        <FooterComponent />
       </body>
     </html>
   );

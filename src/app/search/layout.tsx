@@ -13,9 +13,11 @@ export default function SearchLayout({
   children: React.ReactNode;
 }) {
   return (
-      <div className={`${roboto.className} max-w-[1400px] mx-auto relative bg-gray-100`}>
-        <SearchHeader />
-        {children}
-      </div>
+    <div
+      className={`${roboto.className} max-w-[1400px] mx-auto relative border-none`}
+    >
+      <SearchHeader />
+      {children}
+    </div>
   );
 }
